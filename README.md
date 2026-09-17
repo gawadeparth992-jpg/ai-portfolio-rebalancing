@@ -1,2 +1,4 @@
-# ai-portfolio-rebalancing
-AI-powered portfolio rebalancing automation using n8n, MarketStack, OpenAI, Google Sheets, and Gmail.
+# AI-Powered Portfolio Rebalancing & Market Intelligence
+An automated portfolio management workflow built with n8n that retrieves end-of-day market data, analyzes portfolio positions using an AI Agent, and generates rebalancing decisions based on a target equity and fixed-income allocation.
+The workflow integrates MarketStack for market data, OpenAI for AI-powered analysis, Google Sheets for portfolio management, and Gmail for automated reporting. It evaluates the current portfolio, determines the required buy, sell, or hold actions, updates the portfolio quantities, and calculates the resulting allocation after rebalancing.
+The system is designed to automate the complete process from portfolio input and market-data retrieval to rebalancing analysis, spreadsheet updates, and delivery of the final report through email.
